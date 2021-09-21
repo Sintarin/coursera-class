@@ -78,6 +78,18 @@ background-color: #d1d1d1;
 	margin: auto;
 	}
 	.col-sm-12 {width: 100%;}
+	#navbar-main a {
+		text-align: center;
+		border: 1px solid black;
+	}
+	#navbar-main > ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#menucategory>li {
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
@@ -97,30 +109,18 @@ background-color: #d1d1d1;
 	border: 0;
 	padding: 0;
 }
-#logo-img {
+#brandname {
 	color: black;
-	height: 1.5em;
+	height: 1em;
 	width: max-content;
-	margin: 10px 15px 10px 0;
-	font-size: 1.5em;
+	font-size: 24px;
 	text-align: center;
-	margin: 10px;
+
 }
 .navbar-header a:hover, .navbar-header a:focus {
 text-decoration: none;
 }
 
-#header-nav .container{
-	margin: 0 1.5em;
-	padding: 0;
-	width: max-content;
-}
 
-.container>.navbar-header {
-	margin-left: 0;
-}
 
-.navbar-toggle {
-	position: relative;
-	float: right;
-}
+
