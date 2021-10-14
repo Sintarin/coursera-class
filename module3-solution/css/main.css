@@ -121,6 +121,11 @@ background-color: #d1d1d1;
 text-decoration: none;
 }
 
+.backtotop:hover, .backtotop:focus {
+	text-decoration: none;
+}
 
-
+.backtotop {
+color: black;
+}
 
